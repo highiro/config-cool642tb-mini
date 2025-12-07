@@ -73,7 +73,7 @@
             bindings = <
 &kp F1  &kp F2  &kp F3    &kp F4        &kp F5                         &kp F6             &kp F7                &kp F8                 &kp F9    &kp F10
 &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans      &trans  &kp DOUBLE_QUOTES  &kp HASH              &kp SQT                &kp AT    &kp COLON
-&trans  &trans  &kt LEFT  &kp DOWN      &kp RIGHT  &trans      &trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE  &kp BACKSLASH
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans      &trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE  &kp BACKSLASH
 &trans  &trans  &trans    &trans        &trans     &trans      &trans  &trans                                                                    &trans
             >;
         };

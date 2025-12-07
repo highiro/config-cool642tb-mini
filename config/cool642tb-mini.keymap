@@ -62,10 +62,10 @@
 
         NUM {
             bindings = <
-&kp EQUAL       &kp N7  &kp N8   &kp N9  &kp BACKSPACE                           &kp LCTRL        &kp AMPERSAND         &kp DOLLAR             &kp MINUS    &kp TILDE
-&kp SLASH       &kp N4  &kp N5   &kp N6  &kp MINUS      &kp UNDER        &trans  &kp EXCLAMATION  &kp QUESTION          &kp SQT                &kp AT_SIGN  &kp COLON
-&kp ASTERISK    &kp N1  &kp N2   &kp N3  &kp PLUS       &kp PERCENT      &trans  &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE     &kp BSLH
-&kp UNDERSCORE  &kt N0  &kp DOT  &trans  &trans         &trans           &trans  &trans                                                                     &trans
+&kp EQUAL       &kp KP_NUMBER_7  &kp N8   &kp N9  &kp BSPC                            &kp LCTRL        &kp AMPERSAND         &kp DOLLAR             &kp MINUS    &kp TILDE
+&kp SLASH       &kp N4           &kp N5   &kp N6  &kp MINUS  &kp UNDER        &trans  &kp EXCLAMATION  &kp QUESTION          &kp SQT                &kp AT_SIGN  &kp COLON
+&kp ASTERISK    &kp N1           &kp N2   &kp N3  &kp PLUS   &kp PERCENT      &trans  &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE     &kp BSLH
+&kp UNDERSCORE  &kt N0           &kp DOT  &trans  &trans     &trans           &trans  &trans                                                                     &trans
             >;
         };
 

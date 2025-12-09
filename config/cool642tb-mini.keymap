@@ -142,7 +142,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                       &mkp MB1   &mkp MB1  &mkp MB2  &trans  &mo 5
 &trans  &trans  &trans  &trans  &trans  &trans      &kp DEL  &mkp MB1   &mkp MB1  &mkp MB2  &trans  &mo 5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp ESC  &trans     &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans     &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp ESC  &kp ENTER                              &to 0
             >;
         };

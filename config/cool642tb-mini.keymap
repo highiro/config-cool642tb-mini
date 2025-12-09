@@ -52,6 +52,16 @@
             bindings = <&kp LEFT>;
             key-positions = <26 25>;
         };
+
+        bs {
+            bindings = <&kp BSPC>;
+            key-positions = <9 8>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {

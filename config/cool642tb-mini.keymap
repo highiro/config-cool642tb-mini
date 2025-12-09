@@ -73,24 +73,6 @@
 
             tap-ms = <20>;
         };
-
-        encoder_msc_l_r: encoder_msc_l_r {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_L_R";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
-            tap-ms = <20>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "NEW_BEHAVIOR";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
-            tap-ms = <20>;
-        };
     };
 
     macros {
@@ -132,8 +114,6 @@
 &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE  &kp BACKSLASH
 &trans  &trans  &trans  &trans          &trans          &trans               &trans  &trans                                                                    &trans
             >;
-
-            sensor-bindings = <&encoder_msc_l_r>;
         };
 
         ARROW {

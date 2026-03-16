@@ -2,4 +2,21 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    # ワークフローを直接呼び出すのではなく、自前でステップを定義して制御する
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install West (Old Version)
+        run: pip install "west==1.1.0"
+
+      - name: Build ZMK
+        uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0

@@ -109,14 +109,14 @@
             label = "NEW_MACRO_TEST2";
         };
 
-        new_macro_test3: new_macro {
+        new_macro_test4: new_macro_test4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp Y &kp S &kp T &kp E &kp M>;
+            bindings = <&kp LS(P) &kp O &kp W &kp E &kp R>;
             label = "NEW_MACRO";
         };
 
-        new_macro_test4: new_macro {
+        new_macro_test3: new_macro_test3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(P) &kp O &kp W &kp E &kp R>;
